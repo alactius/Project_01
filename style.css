@@ -5,10 +5,10 @@ h1, h2, h3, h4, h5, p, li {
 #scrollToTopBtn {
     position: fixed;
     bottom: 20px;
-    right: 15px; /* Adjust the right distance as needed */
+    right: 15px; 
 }
 
-/* Add a custom CSS class for the sticky navbar */
+
 .sticky-nav {
     position: fixed;
     top: 0;
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, p, li {
 }
 
 .home-content {
-    margin-top: 100px; /* Adjust the value as needed to create the desired spacing */
+    margin-top: 100px; 
 }
 
 .justify-text {
@@ -52,8 +52,8 @@ h1, h2, h3, h4, h5, p, li {
 
 .card-reveal .close-icon {
     position: absolute;
-    top: 10px; /* Adjust the top position as needed */
-    right: 10px; /* Adjust the right position as needed */
+    top: 10px; 
+    right: 10px;
     transition: top 0.3s, right 0.3s;
 }
 
@@ -67,8 +67,8 @@ h1, h2, h3, h4, h5, p, li {
 
 .custom-list li {
     position: relative;
-    margin-left: 20px; /* Adjust the space between the line and text */
-    padding-left: 20px; /* Adjust the space between the line and the edge of the container */
+    margin-left: 20px; 
+    padding-left: 20px;
 }
 
 .custom-list li::before {
@@ -77,9 +77,9 @@ h1, h2, h3, h4, h5, p, li {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 10px; /* Adjust the line length */
-    height: 2px; /* Adjust the line thickness */
-    background-color: #333; /* Adjust the line color */
+    width: 10px; 
+    height: 2px;
+    background-color: #333; 
 }
 
 
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, p, li {
 }
 
 .wanboxed, .wan2boxed {
-    width: 50%; /* Adjust the width as needed */
+    width: 50%; 
     border: 5px solid #bbdefb;
     border-radius: 10px;
 }
