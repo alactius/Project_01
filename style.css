@@ -1,0 +1,111 @@
+h1, h2, h3, h4, h5, p, li {
+    font-weight: 100;
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 15px; /* Adjust the right distance as needed */
+}
+
+/* Add a custom CSS class for the sticky navbar */
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.home-content {
+    margin-top: 100px; /* Adjust the value as needed to create the desired spacing */
+}
+
+.justify-text {
+    text-align: center;
+}
+/*blog*/
+
+.material-icons {
+    position: fixed;
+    z-index: 1000;
+    color: black;
+}
+.card {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-image {
+    flex: 1;
+}
+
+.card .card-content {
+    flex: 1;
+}
+
+.card .card-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-reveal .close-icon {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    transition: top 0.3s, right 0.3s;
+}
+
+
+
+
+.custom-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-list li {
+    position: relative;
+    margin-left: 20px; /* Adjust the space between the line and text */
+    padding-left: 20px; /* Adjust the space between the line and the edge of the container */
+}
+
+.custom-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px; /* Adjust the line length */
+    height: 2px; /* Adjust the line thickness */
+    background-color: #333; /* Adjust the line color */
+}
+
+
+
+/*about*/
+
+
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.wanboxed, .wan2boxed {
+    width: 50%; /* Adjust the width as needed */
+    border: 5px solid #bbdefb;
+    border-radius: 10px;
+}
+
+.try-text {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
